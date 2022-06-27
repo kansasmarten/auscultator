@@ -26,9 +26,11 @@ def checkin():
     for x in name:
         x = x.get_text()
         if "Total number of patients" in x:
+            print(x)
             x = x.split(" ")
             patients = x[-1]
         elif "Updated" in x:
+            print(x)
             x = x.split(" ")
             month, day, year = x[-1].split("/")
             year = "20"+year

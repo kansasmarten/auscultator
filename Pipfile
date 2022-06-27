@@ -11,6 +11,7 @@ bs4 = "*"
 lxml = "*"
 pandas = "*"
 yagmail = "*"
+requests-html = "*"
 
 [requires]
 python_version = "3.9"
